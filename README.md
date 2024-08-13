@@ -100,24 +100,48 @@ El repositorio cuenta con carpetas, en las cuales se encuentran los proyectos de
 
 [**1. Silly Name Generator**](./1_Silly_name_generator)
 
-- El jugador debe adivinar una palabra oculta antes de quedarse sin vidas.
+**Pseudonyms:**
 
-    El juego procede de la siguiente manera:
-    1. Lee una lista de palabras desde un archivo.
-    2. Muestra un mensaje de bienvenida y proporciona detalles del juego.
-    3. Inicializa las variables del juego, incluyendo el número de vidas y la palabra a adivinar.
-    4. Ejecuta un bucle principal donde el jugador ingresa letras para adivinar la palabra.
-    5. Verifica si la letra ingresada está en la palabra y actualiza la visualización.
-    6. Muestra el dibujo del ahorcado en caso de errores.
-    7. Pregunta al usuario si desea jugar de nuevo después de ganar o perder.
+- Genera aleatoriamente nombres graciosos para compañeros usando código Python que se ajuste a las directrices de estilo establecidas.
+**
+
+**Pig latin:**
+
+- Para formar el pig latin, se toma una palabra inglesa que comienza con una consonante,
+se mueve esa consonante al final y luego se agrega “ay” al final de la palabra.
+Si la palabra comienza con una vocal, simplemente se agrega “way” al final de la
+palabra. Una de las frases en pig latin más famosas de todos los tiempos es “ixnay on the
+ottenray”, pronunciada por Marty Feldman en la obra maestra cómica de Mel Brooks
+El joven Frankenstein.
+
+
+Escriba un programa que tome una palabra como entrada y utilice indexación y
+slicing para devolver su equivalente en Pig Latin. Ejecute Pylint y pydocstyle en
+su código y corrija cualquier error de estilo. Puede encontrar una solución en el
+apéndice o descargar pig_latin_practice.py desde https://www.nostarch.com/
+impracticalpython/.
+
+**Poor mans bars chart:**
+
+- Las seis letras más comúnmente usadas en el idioma inglés se pueden recordar con el mnemónico "etaoin" (pronunciado eh-tay-oh-in). Escribe un script en Python que tome una oración (cadena) como entrada y devuelva una visualización tipo gráfico de barras simple como en la Figura 1-2. Sugerencia: Utilicé una estructura de datos de diccionario y dos módulos que aún no he cubierto, pprint y collections/defaultdict.
+
+**Pseudonimos_2:**
+
+- Reescribe el código del generador de nombres divertidos para incluir los segundos nombres. Primero,
+crea una nueva tupla middle_name, luego separa los pares de nombre-segundo nombre existentes (como “Joe ‘Pottin Soil’” o “Sid ‘The Squirts’”) y agrégalos
+a la tupla. También debes mover algunos apodos obvios (como
+“Oil Can”) a tu tupla middle_name. Finalmente, agrega algunos segundos nombres nuevos
+(como “The Big News”, o “Grunts”, o “Tinkie Winkie”). Usa el módulo
+random de Python para que se elija un segundo nombre solo la mitad o un tercio
+de las veces. 
 
 [![Ahorcadito](gifs/Ahorcadito.gif)]
 
 [**2. Finding palingram spells:**](./2_Finding_Palingram_Spells)
 
-- Juega al juego de Piedra, Papel o Tijera contra la computadora.  
-  El juego continúa hasta que uno de los jugadores (usuario o computadora) alcance 3 puntos.
-  Después de cada partida, se pregunta al usuario si desea jugar nuevamente.
+**Palindromo:**
+
+- 
 
 [![Piedra Papel o Tijera](gifs/Piedra.gif)]
 

@@ -1,7 +1,7 @@
 # Impractical Python Projects::
  ### Resolución del Libro.
 
-![Medico](imagenes\impractical_python_project.jpg)
+![python](imagenes\impractical_python_project.jpg)
 
 # Índice
 

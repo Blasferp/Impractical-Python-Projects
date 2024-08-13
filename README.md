@@ -135,7 +135,7 @@ a la tupla. También debes mover algunos apodos obvios (como
 random de Python para que se elija un segundo nombre solo la mitad o un tercio
 de las veces. 
 
-[![Ahorcadito](gifs/Ahorcadito.gif)]
+[![](gifs/Ahorcadito.gif)]
 
 [**2. Finding palingram spells:**](./2_Finding_Palingram_Spells)
 
@@ -143,7 +143,7 @@ de las veces.
 
 - 
 
-[![Piedra Papel o Tijera](gifs/Piedra.gif)]
+[![](gifs/Piedra.gif)]
 
 
 
